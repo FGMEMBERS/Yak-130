@@ -31,7 +31,7 @@ Endurance, clean / ext. tanks 2h 45 min / 4 h
 -->
 
 <!-- <airplane mass="8708"> -->
-<airplane mass="8708" version="YASIM_VERSION_CURRENT">
+<airplane mass="8708">
 
 <!-- Approach configuration -->
 <approach speed="120" aoa="5" fuel="0.3">

@@ -29,6 +29,7 @@
     <!-- Seats -->	
     
     <model>
+		<name>Seat1</name>
         <path>Aircraft/Yak-130/Models/Cockpit/Interior/Seat/Seat.xml</path>
         <offsets>
             <x-m>-2.40009</x-m>
@@ -39,6 +40,7 @@
     </model>
     
     <model>
+		<name>Seat2</name>
         <path>Aircraft/Yak-130/Models/Cockpit/Interior/Seat/Seat.xml</path>
         <offsets>
             <x-m>-1.0097</x-m>

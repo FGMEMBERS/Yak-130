@@ -23,6 +23,7 @@
         <type>shader</type>
         <shader>chrome</shader>
         <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+		<object-name>HUD.Glass</object-name>
         <object-name>Projector</object-name>
     </animation>
     

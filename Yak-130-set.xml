@@ -8,7 +8,7 @@
     
 		<description>Yakovlev Yak-130</description>
 		<author>pjedvaj, StuartC and Tomaskom</author>
-		<status>1.0.2</status>
+		<status>1.0.5</status>
 		<flight-model>yasim</flight-model>
 		<aero>Yak-130-yasim</aero>
     
@@ -153,7 +153,6 @@
 			</config>
 		</view>
 	
-	
 		<view n="102">
 			<name>Over the shoulder</name>
 			<internal archive="y">false</internal>
@@ -209,7 +208,6 @@
 		</menubar>
     
 		<!-- Help -->
-
 	  	
 		<help>
 			<title>Yak-130</title>
@@ -226,11 +224,15 @@
 				<desc>Toggle speedbrake</desc>
 			</key>
 			<key>
+				<name>e</name>
+				<desc>Eject</desc>
+			</key>
+			<key>
 				<name>f</name>
 				<desc>Fire gun</desc>
 			</key>
 			<key>
-				<name>e</name>
+				<name>d</name>
 				<desc>Fire rockets</desc>
 			</key>
 			<key>
@@ -478,10 +480,8 @@
 			</tank>
 		</fuel>
 	</consumables>
-
     
 	<!-- Keyboard shortcuts -->
-    
 
 	<input>
 		<keyboard>
@@ -521,8 +521,8 @@
 				</binding>
 			</key>
        
-			<key n="101">
-				<name>e</name>
+			<key n="100">
+				<name>d</name>
 				<desc>Fire rockets</desc>
 				<binding>
 					<command>nasal</command>
@@ -534,6 +534,15 @@
 						<script>guns.stop_Rocket()</script>
 					</binding>
 				</mod-up>
+			</key>
+			
+			<key n="101">
+				<name>e</name>
+				<desc>Eject</desc>
+				<binding>
+					<command>nasal</command>
+					<script>Eject.eject();</script>
+				</binding>
 			</key>
        
 			<key n="102">
@@ -670,7 +679,7 @@
 			</settings>
 		</terrain-radar>
         
-		<efis>  
+		<efis>
 			<ecam>
 				<display-mode type="string">FUEL</display-mode>
 			</ecam>
@@ -763,6 +772,10 @@
 		<canopy>
 			<file>Aircraft/Yak-130/Nasal/canopy.nas</file>
 		</canopy>
+		
+		<Eject>
+			<file>Aircraft/Yak-130/Nasal/eject.nas</file>
+		</Eject>
     
 		<tyresmoke>
 			<file>Aircraft/Yak-130/Nasal/tyresmoke.nas</file>
