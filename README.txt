@@ -1,6 +1,4 @@
-![](http://www.fguk.eu/images/jdownloads/screenshots/fgfs-screen-02330.png)
-
-
+![IMAGE](http://www.fguk.eu/images/jdownloads/screenshots/fgfs-screen-02330.png)
 
 FGUK HANGAR
 =============
