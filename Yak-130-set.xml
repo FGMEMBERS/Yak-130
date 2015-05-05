@@ -8,10 +8,10 @@
     
 		<description>Yakovlev Yak-130</description>
 		<author>pjedvaj, StuartC and Tomaskom</author>
-		<status>1.0.5</status>
+		<status>1.1</status>
 		<flight-model>yasim</flight-model>
-		<aero>Yak-130-yasim</aero>
-    
+		<aero>Yak-130-yasim</aero><!-- remove this line for FG versions earlier than 3.2 -->
+        <!--  <aero>Yak-130-yasimold</aero>  --><!-- uncomment this line for FG versions earlier than 3.2 -->
 		<rating>
 			<FDM type="int">3</FDM>
 			<systems type="int">1</systems>
@@ -244,6 +244,13 @@
 		</help>
     
 		<!-- Multiplayer -->
+		
+		<mp-systems>
+					<radar-enabled type="bool">true</radar-enabled>
+					<ecm-rwr-enabled type="bool">true</ecm-rwr-enabled>
+					<combat-enabled type="bool">true</combat-enabled>
+	    </mp-systems>
+				
     
 		<multiplay>
 			<chat_display>1</chat_display>
@@ -331,7 +338,7 @@
 			</opt>
 			<opt>
 				<name>PTB-450 tank</name>
-				<lbs>4600</lbs>
+				<lbs>220</lbs>
 				<gals>600</gals>
 			</opt>
 		</weight>	
@@ -362,7 +369,7 @@
 			</opt>
 			<opt>
 				<name>PTB-450 tank</name>
-				<lbs>4600</lbs>
+				<lbs>220</lbs>
 				<gals>600</gals>
 			</opt>
 		</weight>
@@ -744,6 +751,10 @@
 			<file>Aircraft/Yak-130/Nasal/refuel.nas</file>
 			<file>Aircraft/Yak-130/Nasal/explode.nas</file>
 		</Yak-130>
+		
+		<fuel>
+   <file>Aircraft/Yak-130/Nasal/fuel.nas</file>
+  </fuel>
     
 		<dmesw>
 			<file>Aircraft/Yak-130/Nasal/dmesw.nas</file>

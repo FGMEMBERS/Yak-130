@@ -143,7 +143,7 @@
             
             <![CDATA[
                 #Livery script
-                var livery_update = aircraft.livery_update.new("Aircraft/Yak-130/Models/Liveries");
+                var livery_update = aircraft.livery_update.new("Aircraft/Yak-130/Models/Liveries", 50);
                 
 var root = cmdarg();
 var rootindex = root.getIndex();
@@ -602,7 +602,7 @@ var listenMpDecode = setlistener(mpPath~"sim/multiplay/generic/string["~stringIn
     <animation>
 		<type>rotate</type>
 		<object-name>R.Slat1</object-name>
-		<property>surface-positions/flap-pos-norm</property>
+		<property>surface-positions/slat-pos-norm</property>
 		<factor>25</factor>
 		<axis>
 			<x1-m>2.0764</x1-m>
@@ -617,7 +617,7 @@ var listenMpDecode = setlistener(mpPath~"sim/multiplay/generic/string["~stringIn
 	<animation>
 		<type>rotate</type>
 		<object-name>R.Slat2</object-name>
-		<property>surface-positions/flap-pos-norm</property>
+		<property>surface-positions/slat-pos-norm</property>
 		<factor>25</factor>
 		<axis>
 			<x1-m>1.3346</x1-m>
@@ -632,7 +632,7 @@ var listenMpDecode = setlistener(mpPath~"sim/multiplay/generic/string["~stringIn
 	<animation>
 		<type>rotate</type>
 		<object-name>L.Slat1</object-name>
-		<property>surface-positions/flap-pos-norm</property>
+		<property>surface-positions/slat-pos-norm</property>
 		<factor>-25</factor>
 		<axis>
 			<x1-m> 2.0764</x1-m>
@@ -647,7 +647,7 @@ var listenMpDecode = setlistener(mpPath~"sim/multiplay/generic/string["~stringIn
 	<animation>
 		<type>rotate</type>
 		<object-name>L.Slat2</object-name>
-		<property>surface-positions/flap-pos-norm</property>
+		<property>surface-positions/slat-pos-norm</property>
 		<factor>-25</factor>
 		<axis>
 			<x1-m> 1.3346</x1-m>
