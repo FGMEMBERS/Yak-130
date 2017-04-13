@@ -11,6 +11,20 @@
 		<status>1.0.2</status>
 		<flight-model>yasim</flight-model>
 		<aero>Yak-130-yasim</aero>
+
+		<tags>
+			<tag>yakovlev</tag>
+			<tag>mid-wing</tag>
+			<tag>tricycle</tag>
+			<tag>retractable-gear</tag>
+			<tag>twin-engine</tag>
+			<tag>trainer</tag>
+			<tag>ifr</tag>
+			<tag>jet</tag>
+			<tag>1990s</tag>
+			<tag>2000s</tag>
+			<tag>2010s</tag>
+		</tags>
     
 		<rating>
 			<FDM type="int">3</FDM>
